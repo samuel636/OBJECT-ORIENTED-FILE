@@ -34,3 +34,18 @@ public CodeLock()
 		 System.out.println("The door is closed");
 	 
 	}
+
+public  void checkCode(String ba)
+	{
+		if( ba==code)
+		  isOpen= true;
+           else
+	
+	        isOpen =false;	
+	        printStatus();
+	
+	}
+	     
+	
+}
+
